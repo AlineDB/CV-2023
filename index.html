@@ -7,26 +7,146 @@
     <meta name="DE BARROS Aline">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta accesskey="CV Aline webdesign">
-    <link href="reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="CSS/reset.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
     <title>Aline webdesign CV</title>
 </head>
 <body>
 <header class="header">
-    <nav class="header__nav">
-        <a class="nav__title" href="#"><h2>Aline</h2></a>
-        <ul class="nav__container">
-            <li class="nav__item"><a class="nav__link" href="">Présentation <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+    <nav class="header__nav" itemscope itemtype="https://schema.org/Person">
+        <a class="nav__title" href="#" itemprop="name"><h2>Aline</h2></a>
+        <ul class="nav__primary">
+            <li class="primary__presentation">
+                <a class="presentation__link" href="">Présentation <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg></span></a>
+                <ul class="presentation__second">
+                    <li class="second__title">Présentation</li>
+                    <li class="second__link"><a href="">Présentation détaillée <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-circle-fill" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/>
 </svg></span></a></li>
-            <li class="nav__item"><a class="nav__link" href="">Parcours <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <li class="second__adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <h3 class="adress__title">Coordonnées</h3>
+                        <p>
+                            <span itemprop="streetAddress">Rue du Labeur 5</span>
+                            <span itemprop="streetLocality">Saint-nicolas</span>
+                            <span itemprop="telephone">0456546576</span>
+                            <span itemprop="email">webdesign@fictif.be</span>
+                        </p>
+                    </li>
+                    <li class="second__atouts">
+                        <h3 class="atouts__title">Atouts</h3>
+                        <p>Expériences</p>
+                        <p>Permis B et véhicule</p>
+                        <p>Télétravail possible</p>
+                        <p>Anglais technique</p>
+                    </li>
+                    <li class="second__situation">
+                        <h3 class="situation__title">Situation</h3>
+                        <p>Etudiante</p>
+                        <p>Mariée</p>
+                        <p>Maman</p>
+                        <p>Conseillère provinciale</p>
+                    </li>
+                    <div class="second__links">
+                        <li>
+                            <a href="">Mes services
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Mes atouts
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Partout en Belgique
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </li>
+            <li class="primary__parcours"><a class="parcours__link" href="">Parcours <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg></span></a>
+                <ul class="parcours__second">
+                    <li class="second_-title">Parcours</li>
+                    <li class="second__link"><a href="">Parcours détaillé <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-circle-fill" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/>
 </svg></span></a></li>
-            <li class="nav__item"><a class="nav__link" href="">Compétences</a></li>
-            <li class="nav__item"><a class="nav__link" href="">Projets</a></li>
-            <li class="nav__item"><a class="nav__link contact" href="">Contact</a></li>
+                   <li class="second__graduate">
+                       <h3 class="graduate__title">Diplôme de 6e professionnelles</h3>
+                        <p>Employée administrative</p>
+                        <p>Saint-Henri Mouscron</p>
+                        <p>2008</p>
+                   </li>
+                    <li class="second__graduate">
+                        <h3 class="graduate__title">Diplôme de 6e professionnelles</h3>
+                        <p>Commis de cuisine</p>
+                        <p>IFC Jonfosse Liège</p>
+                        <p>2011</p>
+                    </li>
+                    <li class="second__graduate">
+                        <h3 class="graduate__title">Diplôme CESS</h3>
+                        <p>Employée administrative</p>
+                        <p>Jury Central</p>
+                        <p>2020</p>
+                    </li>
+                    <li class="second__graduate">
+                        <h3 class="graduate__title">Bachelier Infographie Web</h3>
+                        <p>Web, design, developpement</p>
+                        <p>HEPL Liège</p>
+                        <p>Débuté en 2020 - en cours</p>
+                    </li>
+                    <li class="second__experiences">
+                        <h3 class="experiences__title">Expériences</h3>
+                        <p>Moins d'un ans - caissière</p>
+                        <p>3 ans - Callcenter</p>
+                        <p>1 an - Employée administrative</p>
+                        <p>2 ans - Commis de cuisine</p>
+                    </li>
+                    <div class="second__links">
+                        <li>
+                            <a href="">Mes services
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Mes atouts
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Partout en Belgique
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </li>
+            <li class="primary__competences"><a class="competences__link" href="">Compétences</a></li>
+            <li class="primary__projects"><a class="projects__link" href="">Projets</a></li>
+            <li class="primary__contact"><a class="contact__link" href="">Contact</a></li>
         </ul>
-
     </nav>
     <div class="header__container">
         <h1 class="header__title">Aline DE BARROS, votre webdesign et bien plus !</h1>
@@ -45,16 +165,188 @@
 </header>
 <main class="layout">
     <section class="layout__presentation">
-        <h3 class="presentation__title">Présentation</h3>
-        <h4 class="presentation__tagline">Il n'est jamais trop tard pour réaliser ses rêves ...</h4>
+        <h4 class="presentation__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Présentation</h4>
+        <p class="presentation__tagline">Il n'est jamais trop tard pour réaliser ses rêves ...</p>
         <p class="presentation__description">
             Femme dans la trentaine ayant une vie bien active : maman de deux "adorables" filles (enfin la plupart du temps), conseillère provinciale, écrivaine à ses heures perdues (ou plutôt quand il lui reste du temps), elle souhaite aujourd’hui s’investir dans sa carrière mise sur pause pendant l’éducation de sa progéniture.
             Elle a de l’expérience dans le secrétariat, le cell-center et l’horeca mais ce qui lui plaît c’est la gestion de projet, trouver des idées, créer et concevoir des design, intégrer ceux-ci et effectuer le suivi.
             C’est parfait pour une webdesign !
         </p>
-
+        <a class="presentation__link" title="Voir le détails de la présentation" href="">Présentation détaillée <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+    </section>
+    <section class="layout__graduate">
+        <h4 class="graduate__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Diplômes</h4>
+        <figure class="graduate__figure">
+            <img class="figure__img" src="img/nubelson-fernandes-jKL2PvKN8Q0-unsplash-min.jpg" alt="Image d'un ordinateur avec un programme de codage ouvert">
+            <figcaption><a href="" title="Voir le détails du diplôme e ntechniques graphiques option web">HEPL Techniques Graphiques - Web <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg></a></figcaption>
+        </figure>
+        <figure class="graduate__figure">
+            <img class="figure__img" src="img/louis-hansel-0sYLBZjgTTw-unsplash-min.jpg" alt="Image d'un plan de travail avec des assiettes dressées">
+            <figcaption><a href="" title="Voir le détails du diplôme de commis de cuisine">IFC Jonfosse - Commis de cuisine <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg></a></figcaption>
+        </figure>
+        <figure class="graduate__figure">
+            <img class="figure__img" src="img/centre-for-ageing-better-8WO_JTyzuNg-unsplash-min.jpg" alt="Image d'une dame qui range des documents dans des dossiers">
+            <figcaption><a href="" title="Voir le détails du diplôme d'employée administrative">Saint-Henri - Employée administrative <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg></a></figcaption>
+        </figure>
+    </section>
+    <section class="layout__parcours">
+        <figure class="parcours__figure">
+            <img src="img/bekir-donmez-eofm5R5f9Kw-unsplash-min.jpg" alt="Image représentant une pile de galet en équilibre">
+        </figure>
+        <h4 class="parcours__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Parcours</h4>
+        <p class="parcours__tagline">Pourquoi travailler avec Aline ?</p>
+        <p class="parcours__description">Ses diverses expériences dans différents domaines lui permettent d’élaborer un projet du début à la fin tout en restant à l’écoute de son client. Un bel équilibre !</p>
+        <a class="parcours__link" href="" title="Voir le détails du parcours">Parcours détaillé <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+    </section>
+    <section class="layout__softskills">
+        <figure class="softskills__figure">
+            <img src="img/imdadul-hussain-CqHFJ3_Zlss-unsplash-min.jpg" alt="Image représentant un ordinateur dans l'herbe">
+        </figure>
+        <h4 class="softskills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Softskills</h4>
+        <p class="softskills__tagline">Quels sont les savoirs-être d'Aline ?</p>
+        <p class="softskills__description">Elle est sérieuse, motivée et dispose de diverses expériences qui font d’elle une redoutable secrétaire, organisatrice, gestionnaire de projet et suivi.
+            Elle est capable de communiquer sur plusieurs niveaux, en s’adaptant à son interlocuteur. Le petite plus : dans le cadre de son bénévolat en politique, Aline gère une page Facebook !<br>
+            Rigoureuse, elle rédige des rapports et des cahiers des charges complets qu’elle peut ensuite présenter.
+            Quand elle ne trouve pas, elle cherche et se forme !
+        </p>
+        <a class="softskills__link" href="" title="Voir le détails des softskills">Softskills détaillés <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+    </section>
+    <section class="layout__skills">
+        <figure class="skills__figure">
+            <img src="img/hal-gatewood-tZc3vjPCk-Q-unsplash-min.jpg" alt="Image représentant un wireframe sur papier">
+            <img src="img/caspar-camille-rubin-0qvBNep1Y04-unsplash-min.jpg" alt="Image représentant des écrans avec divers programmes d'encodage">
+        </figure>
+        <h4 class="skills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Skills</h4>
+        <p class="skills__tagline">Quels sont compétences d'Aline ?</p>
+            <ul class="skills__description">
+                <li class="description__items">
+                    HTML, CSS, PHP, Wordpress, Flutter, Javascript, TypeScript
+                </li>
+                <li class="description__items">
+                    Design, ergonomie, Gestion de projet, Wireframe, Prototype, Cahier des  charges, Recherches
+                </li>
+                <li class="description__items">
+                    GitHub, PhpStorm, IntelliJ, Suite Adobe, Suite Office, Maya
+                </li>
+                <li class="description__items">
+                    Flyers,Affiches, Covers Facebook, Vidéos, Photos
+                </li>
+            </ul>
+        <a class="skills__link" href="" title="Voir le détails des skills">Skills détaillés <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+    </section>
+    <section class="layout__social">
+        <h4 class="social__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Social</h4>
+        <p class="social__tagline">Suivez-moi sur les réseaux</p>
+        <a class="social__link" title="Aller sur GitHub" target="_blank" href="https://github.com/AlineDB?tab=repositories"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg></a>
+        <a class="social__link" title="Aller sur LinkedIn" target="_blank" href="https://www.linkedin.com/in/aline-de-barros-218902166/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+        </a>
+        <a class="social__link" title="Aller sur Facebook" target="_blank" href="https://www.facebook.com/aline.lovec"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+        </a>
+    </section>
+    <section class="layout__projects">
+        <h4 class="projects__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg> Projets</h4>
+        <ul class="projects__list">
+            <li class="list__item">
+                <p class="item__title">Web</p>
+                <p class="item__date"><date>01.06.23</date></p>
+                <a class="item__link" href="" title="Voir le projet portfolio" target="_blank">Réalisation de mon portfolio</a>
+            </li>
+            <li class="list__item">
+                <p class="item__title">Web</p>
+                <p class="item__date"><date>01.06.23</date></p>
+                <a class="item__link" href="" title="Voir le projet Antilope" target="_blank">Réalisation d'un site internet Antilope Wordpress pour un client d'école</a>
+            </li>
+            <li class="list__item">
+                <p class="item__title">Print</p>
+                <p class="item__date"><date>01.09.23</date></p>
+                <a class="item__link" href="" title="Voir le projet affiche politique" target="_blank">Réalisation d'une affiche pour un événement culturel politique </a>
+            </li>
+            <li class="list__item">
+                <p class="item__title">BOOK</p>
+                <p class="item__date"><date>01.07.21</date></p>
+                <a class="item__link" href="" title="Voir le projet écriture livres" target="_blank">Écriture de deux livres publiés sur Kindle Amazon</a>
+            </li>
+        </ul>
+        <a class="projects__link" href="https://aline-db.be" target="_blank" title="Voir les projets">Voir tous les projets <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+    </section>
+    <section class="layout__banniere">
+        <p class="banniere__tagline">Partenaire de votre succès !</p>
+        <a class="banniere__link" href="" target="_blank" title="Contactez-moi">Contactez-moi <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+        <figure>
+            <img src="img/christina-wocintechchat-com-faEfWCdOKIg-unsplash-min.jpg" alt="Image représentant des employés en meeting autour d'une table">
+        </figure>
     </section>
 </main>
+<footer class="footer">
+    <a class="footer__title" href="#" itemprop="name"><h2>Aline</h2></a>
+    <section class="footer__container" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <p class="container__address">
+            <span itemprop="streetAddress">Rue du Labeur 5</span>
+            <span itemprop="streetLocality">Saint-nicolas</span>
+            <span itemprop="telephone">0456546576</span>
+            <span itemprop="email">webdesign@fictif.be</span>
+        </p>
+        <p class="container__description">
+            Se site est réalisé dans le cadre du cours de design web
+        </p>
+        <a class="container__contact" href="">Contact</a>
+        <div class="footer__legals">
+            <p>
+                Se site est sous la responsabilité légale de DE BARROS Aline et des <a class="legals__link" title="Lire les conditions d'utilisation" href="">conditions d’utilisation</a>. Copyright 2022 DE BARROS. Tous droits réservés.
+            </p>
+            <a href="" class="legals__link" title="Lire les mentions légales">Mentions légales</a>
+            <a class="legals__social" title="Aller sur GitHub" target="_blank" href="https://github.com/AlineDB?tab=repositories"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg></a>
+            <a class="legals__social" title="Aller sur LinkedIn" target="_blank" href="https://www.linkedin.com/in/aline-de-barros-218902166/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+            </a>
+            <a class="legals__social" title="Aller sur Facebook" target="_blank" href="https://www.facebook.com/aline.lovec"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            </a>
+        </div>
+    </section>
+</footer>
 
 
 

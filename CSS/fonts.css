@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    src: url(../polices/Inter-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Black';
+    font-style: normal;
+    src: url(../polices/Inter-Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    src: url(../polices/Inter-Bold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    font-style: normal;
+    src: url(../polices/Inter-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    font-style: normal;
+    src: url(../polices/Inter-Medium.ttf) format('ttf');
+}
+
+
+
+/*Police*/
+
+html{
+    font-family: Inter, sans-serif;
+}
