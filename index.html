@@ -28,8 +28,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-circle-fill" viewBox="0 0 16 16">
   <circle cx="8" cy="8" r="8"/>
 </svg></span></a></li>
-                    <li class="second__adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                        <h3 class="adress__title">Coordonnées</h3>
+                    <li class="second__address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <h3 class="address__title">Coordonnées</h3>
                         <p>
                             <span itemprop="streetAddress">Rue du Labeur 5</span>
                             <span itemprop="streetLocality">Saint-nicolas</span>
@@ -46,7 +46,7 @@
                     </li>
                     <li class="second__situation">
                         <h3 class="situation__title">Situation</h3>
-                        <p>Etudiante</p>
+                        <p>Étudiante</p>
                         <p>Mariée</p>
                         <p>Maman</p>
                         <p>Conseillère provinciale</p>
@@ -151,7 +151,11 @@
     <div class="header__container">
         <h1 class="header__title">Aline DE BARROS, votre webdesign et bien plus !</h1>
         <figure>
-            <img src="img/jackson-sophat-_t-l5FFH8VA-unsplash-min.jpg" alt="Image représentant une balise html">
+            <img alt="Image représentant une balise html"
+            srcset="img/jackson-mobile.jpg 480w, img/jackson-sophat-_t-l5FFH8VA-unsplash-min.jpg 1920w"
+                 sizes="(max-width: 600px) 480px, 1920px"
+                 src="img/jackson-sophat-_t-l5FFH8VA-unsplash-min.jpg"
+            >
         </figure>
         <dl class="header__count">
             <dt class="count__title">Projets en cours</dt>
@@ -183,19 +187,28 @@
             <circle cx="8" cy="8" r="8"/>
         </svg> Diplômes</h4>
         <figure class="graduate__figure">
-            <img class="figure__img" src="img/nubelson-fernandes-jKL2PvKN8Q0-unsplash-min.jpg" alt="Image d'un ordinateur avec un programme de codage ouvert">
+            <img class="figure__img"
+                 srcset="img/nubelson-mobile.jpg 480w, img/nubelson-desktop.jpg 1920w"
+                 sizes="(max-width: 600px) 480px, 1920px"
+                 src="img/nubelson-fernandes-jKL2PvKN8Q0-unsplash-min.jpg" alt="Image d'un ordinateur avec un programme de codage ouvert">
             <figcaption><a href="" title="Voir le détails du diplôme e ntechniques graphiques option web">HEPL Techniques Graphiques - Web <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg></a></figcaption>
         </figure>
         <figure class="graduate__figure">
-            <img class="figure__img" src="img/louis-hansel-0sYLBZjgTTw-unsplash-min.jpg" alt="Image d'un plan de travail avec des assiettes dressées">
+            <img class="figure__img"
+                srcset="img/louis-mobile.jpg 480w, img/louis-desktop.jpg 1920w"
+                 sizes="(max-width: 600px) 480px, 1920px"
+                 src="img/louis-hansel-0sYLBZjgTTw-unsplash-min.jpg" alt="Image d'un plan de travail avec des assiettes dressées">
             <figcaption><a href="" title="Voir le détails du diplôme de commis de cuisine">IFC Jonfosse - Commis de cuisine <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg></a></figcaption>
         </figure>
         <figure class="graduate__figure">
-            <img class="figure__img" src="img/centre-for-ageing-better-8WO_JTyzuNg-unsplash-min.jpg" alt="Image d'une dame qui range des documents dans des dossiers">
+            <img class="figure__img"
+                 srcset="img/centre-mobile.jpg 480w, img/centre-desktop.jpg 1920w"
+                 sizes="(max-width: 600px) 480px, 1920px"
+                 src="img/centre-for-ageing-better-8WO_JTyzuNg-unsplash-min.jpg" alt="Image d'une dame qui range des documents dans des dossiers">
             <figcaption><a href="" title="Voir le détails du diplôme d'employée administrative">Saint-Henri - Employée administrative <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg></a></figcaption>
@@ -203,7 +216,10 @@
     </section>
     <section class="layout__parcours">
         <figure class="parcours__figure">
-            <img src="img/bekir-donmez-eofm5R5f9Kw-unsplash-min.jpg" alt="Image représentant une pile de galet en équilibre">
+            <img
+                    srcset="img/bekir-mobile.jpg 480w, img/bekir-desktop.jpg 1920w"
+                    sizes="(max-width: 600px) 480px, 1920px"
+                    src="img/bekir-donmez-eofm5R5f9Kw-unsplash-min.jpg" alt="Image représentant une pile de galet en équilibre">
         </figure>
         <h4 class="parcours__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
@@ -216,7 +232,10 @@
     </section>
     <section class="layout__softskills">
         <figure class="softskills__figure">
-            <img src="img/imdadul-hussain-CqHFJ3_Zlss-unsplash-min.jpg" alt="Image représentant un ordinateur dans l'herbe">
+            <img
+                    srcset="img/imdadul-mobile.jpg 480w, img/imdadul-desktop.jpg 1920w"
+                    sizes="(max-width: 600px) 480px, 1920px"
+                    src="img/imdadul-hussain-CqHFJ3_Zlss-unsplash-min.jpg" alt="Image représentant un ordinateur dans l'herbe">
         </figure>
         <h4 class="softskills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
@@ -233,8 +252,14 @@
     </section>
     <section class="layout__skills">
         <figure class="skills__figure">
-            <img src="img/hal-gatewood-tZc3vjPCk-Q-unsplash-min.jpg" alt="Image représentant un wireframe sur papier">
-            <img src="img/caspar-camille-rubin-0qvBNep1Y04-unsplash-min.jpg" alt="Image représentant des écrans avec divers programmes d'encodage">
+            <img
+                    srcset="img/hal-desktop.jpg 1920w"
+                    sizes="1920px"
+                    src="img/hal-gatewood-tZc3vjPCk-Q-unsplash-min.jpg" alt="Image représentant un wireframe sur papier">
+            <img
+                    srcset="img/caspar-desktop.jpg 1920w"
+                    sizes="1920px"
+                    src="img/caspar-camille-rubin-0qvBNep1Y04-unsplash-min.jpg" alt="Image représentant des écrans avec divers programmes d'encodage">
         </figure>
         <h4 class="skills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
@@ -311,7 +336,10 @@
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
         </svg></a>
         <figure>
-            <img src="img/christina-wocintechchat-com-faEfWCdOKIg-unsplash-min.jpg" alt="Image représentant des employés en meeting autour d'une table">
+            <img
+                    srcset="img/christina-mobile.jpg 480w, img/christina-desktop.jpg 1920w"
+                    sizes="(max-width: 600px) 480px, 1920px"
+                    src="img/christina-wocintechchat-com-faEfWCdOKIg-unsplash-min.jpg" alt="Image représentant des employés en meeting autour d'une table">
         </figure>
     </section>
 </main>
@@ -347,9 +375,6 @@
         </div>
     </section>
 </footer>
-
-
-
 
 </body>
 </html>

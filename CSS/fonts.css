@@ -17,6 +17,12 @@
 }
 
 @font-face {
+    font-family: 'Inter-SemiBold';
+    font-style: normal;
+    src: url(../polices/Inter-SemiBold.ttf) format('ttf');
+}
+
+@font-face {
     font-family: 'Inter-Light';
     font-style: normal;
     src: url(../polices/Inter-Light.ttf) format('ttf');
@@ -34,4 +40,26 @@
 
 html{
     font-family: Inter, sans-serif;
+}
+
+h1{
+    font-family: Inter-Light, sans-serif;
+    font-size: 6.25em; /*100/16*/
+}
+
+h2{
+    font-family: Inter-SemiBold, sans-serif;
+    font-size: 2.5em; /*40/16*/
+}
+
+h3{
+    font-family: Inter-Bold, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    opacity: 30%;
+}
+
+h4{
+    font-family: Inter-SemiBold, sans-serif;
+    font-size: 1.25em; /*20/16*/
 }

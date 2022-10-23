@@ -55,3 +55,8 @@ a{
 img{
     max-width: 100%;
 }
+
+html{
+    color: #000000;
+    background-color: #ffffff;
+}
