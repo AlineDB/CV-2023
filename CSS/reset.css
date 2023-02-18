@@ -61,7 +61,7 @@ html{
     background-color: #ffffff;
 }
 
-.header__title{
+.header__title, .container__title{
     display: none;
 }
 
