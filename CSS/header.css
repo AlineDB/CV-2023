@@ -1,5 +1,4 @@
 
-
 .presentation__second, .parcours__second{
     position: absolute;
     display: none;
@@ -36,7 +35,7 @@ nav a{
 }
 
 @media screen and (min-width: 1024px){
-    .nav__title a,.header__title, .nav__primary a{
+    .nav__title a,.header__tag, .nav__primary a{
      color: #ffffff;
         position: absolute;
         padding-top: 1em; /*30/16*/
@@ -51,7 +50,7 @@ nav a{
     .nav__primary a{
         top: 2.5em; /*20/16*/
     }
-    .header__title{
+    .header__tag{
         position: absolute;
         top: 1.25em; /*252/100*/
         width: 9.3em; /*930/100*/
@@ -61,7 +60,7 @@ nav a{
         width: 100vh;
         height: 100vh;
     }
-    .header__title, .header__nav{
+    .header__tag, .header__nav{
         margin-left: 135px;
         margin-right: 135px;
     }
@@ -77,13 +76,18 @@ nav a{
         color: #ffffff;
         background-color: #7DC149;
     }
-    .primary__presentation:hover .presentation__second, .primary__parcours:hover .parcours__second{
-        display: initial;
+    .primary__presentation:hover .presentation__second, .primary__presentation:focus-within .presentation__second, .primary__parcours:hover .parcours__second, .primary__parcours:focus-within .parcours__second{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
         margin-top: 120px;
-        height: 100vh;
+        height: 50vh;
         left: 0;
         width: 100%;
     }
+    .primary__presentation:hover .menu__down, .primary__presentation:focus-within .menu__down, .primary__parcours:hover .menu__down, .primary__parcours:focus-within .menu__down{
+        color: #7DC149;
+    }
+
     .header__count{
         font-weight: bolder;
         color: #ffffff;
@@ -91,7 +95,6 @@ nav a{
         bottom: 1em; /*328/20*/
         right: 6em; /*154/20*/
     }
-
 
 }
 
