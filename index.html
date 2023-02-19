@@ -16,6 +16,15 @@
     <h1 class="header__title">Aline <span lang="en">webdesign</span> CV</h1>
     <nav class="header__nav" itemscope itemtype="https://schema.org/Person">
         <h2 class="nav__title"><a  href="#" itemprop="name">Aline</a></h2>
+        <input type="checkbox" id="hamburger" class="nav__hamburger">
+        <label id="hamburger-logo" for="hamburger" class="nav__hamblabel">
+            <svg class="hamb__one" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40px" height="27px" viewBox="0 0 40 27" xml:space="preserve">
+                <rect  fill="#000000" width="34" height="4"/>
+            </svg>
+            <svg class="hamb__two" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40px" height="27px" viewBox="0 0 40 27" xml:space="preserve">
+                <rect  y="0" fill="#000000" width="34" height="4"/>
+            </svg>
+        </label>
         <ul class="nav__primary">
             <li class="primary__presentation">
                 <a class="presentation__link" href="">Pr&#233;sentation <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="menu__down bi-chevron-down" viewBox="0 0 16 16">
@@ -75,7 +84,8 @@
                     </li>
                 </ul>
             </li>
-            <li class="primary__parcours"><a class="parcours__link" href="">Parcours <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="menu__down bi-chevron-down" viewBox="0 0 16 16">
+            <li class="primary__parcours">
+                <a class="parcours__link" href="">Parcours <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="menu__down bi-chevron-down" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
 </svg></span></a>
                 <ul class="parcours__second">
@@ -89,26 +99,26 @@
                         <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
                     </span>
                     </a></li>
-                   <li class="second__graduate">
-                       <h3 class="graduate__title" itemprop="hasCredential">Dipl&#244;me de 6e professionnelles</h3>
+                   <li class="second__graduates">
+                       <h3 class="graduates__title" itemprop="hasCredential">Dipl&#244;me de 6e professionnelles</h3>
                         <p>Employ&#233;e administrative</p>
                         <p itemprop="alumniOf">Saint-Henri Mouscron</p>
                         <p>2008</p>
                    </li>
-                    <li class="second__graduate">
-                        <h3 class="graduate__title" itemprop="hasCredential">Dipl&#244;me de 6e professionnelles</h3>
+                    <li class="second__graduates">
+                        <h3 class="graduates__title" itemprop="hasCredential">Dipl&#244;me de 6e professionnelles</h3>
                         <p>Commis de cuisine</p>
                         <p itemprop="alumniOf">IFC Jonfosse Li&#232;ge</p>
                         <p>2011</p>
                     </li>
-                    <li class="second__graduate">
-                        <h3 class="graduate__title" itemprop="hasCredential">Dipl&#244;me CESS</h3>
+                    <li class="second__graduates">
+                        <h3 class="graduates__title" itemprop="hasCredential">Dipl&#244;me CESS</h3>
                         <p>Employ&#233;e administrative</p>
                         <p itemprop="alumniOf">Jury Central</p>
                         <p>2020</p>
                     </li>
-                    <li class="second__graduate">
-                        <h3 class="graduate__title" itemprop="hasCredential">Bachelier Infographie Web</h3>
+                    <li class="second__graduates">
+                        <h3 class="graduates__title" itemprop="hasCredential">Bachelier Infographie Web</h3>
                         <p lang="en">Web, design, development</p>
                         <p itemprop="alumniOf">HEPL Li&#232;ge</p>
                         <p>D&#233;but&#233; en 2020 - en cours</p>
@@ -138,7 +148,6 @@
                             </a>
                 </ul>
             </li>
-            <li class="primary__space"><a href=""></a></li>
             <li class="primary__competences"><a class="competences__link" href="">Comp&#233;tences</a></li>
             <li class="primary__projects"><a class="projects__link" href="">Projets</a></li>
             <li class="primary__contact"><a class="contact__link" href="">Contact</a></li>
@@ -165,7 +174,7 @@
 </header>
 <main class="layout">
     <section class="layout__presentation">
-        <h3 class="presentation__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 class="presentation__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Pr&#233;sentation</h3>
         <p class="presentation__tagline">Il n&#8217;est jamais trop tard pour r&#233;aliser ses rêves ...</p>
@@ -179,7 +188,7 @@
         </svg></a>
     </section>
     <section class="layout__graduate">
-        <h3 class="graduate__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 class="graduate__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Dipl&#244;mes</h3>
         <figure class="graduate__figure">
@@ -211,7 +220,7 @@
         </figure>
     </section>
     <section class="layout__parcours">
-        <h3 class="parcours__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 class="parcours__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Parcours</h3>
         <figure class="parcours__figure">
@@ -227,7 +236,7 @@
         </svg></a>
     </section>
     <section class="layout__softskills">
-        <h3 lang="en" class="softskills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 lang="en" class="softskills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Softskills</h3>
         <figure class="softskills__figure">
@@ -247,7 +256,7 @@
         </svg></a>
     </section>
     <section class="layout__skills">
-        <h3 lang="en" class="skills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 lang="en" class="skills__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Skills</h3>
         <figure class="skills__figure">
@@ -280,7 +289,7 @@
         </svg></a>
     </section>
     <section class="layout__social">
-        <h3 class="social__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 class="social__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Social</h3>
         <p class="social__tagline">Suivez-moi sur les r&#233;seaux</p>
@@ -297,7 +306,7 @@
         </a>
     </section>
     <section class="layout__projects">
-        <h3 class="projects__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <h3 class="projects__title"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#7DC149" class="bi bi-circle" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
         </svg> Projets</h3>
         <ul class="projects__list">
