@@ -175,6 +175,10 @@ nav a{
         grid-row: 1;
     }
 
+    .second__graduates{
+        padding-top: 0.8181818182em; /*18/22*/
+    }
+
     .presentation__second, .parcours__second{
         padding-left: 6.2727272727em; /*138/22*/
     }

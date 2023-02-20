@@ -1,3 +1,9 @@
 
 @import "fonts.css";
 @import "header.css";
+@import "layout__presentation.css";
+@import "layout__graduate.css";
+@import "layout__parcours.css";
+@import "layout__softskills.css";
+@import "layout__skills.css";
+@import "layout__social.css";

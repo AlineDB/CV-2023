@@ -1,0 +1,73 @@
+
+
+.layout__parcours{
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.parcours__title{
+    margin-bottom: 1.25em; /*25/20*/
+}
+
+.parcours__tagline{
+    font-size: 1.875em; /*30/16*/
+    font-weight: lighter;
+    margin-bottom: 1em; /*30/30*/
+    margin-top: 1em; /*30/30*/
+}
+
+.parcours__description{
+    font-size: 1.25em; /*20/16*/
+    font-weight: lighter;
+    margin-bottom: 1em; /*30/30*/
+}
+
+.parcours__details{
+    font-size: 1.125em; /*18/16*/
+    padding-bottom: 1em;
+    border-bottom: 2px solid #7DC149;
+}
+
+.parcours__details svg{
+    padding-left: 5.5555555556em; /*110/18*/
+}
+
+.parcours__details:hover .bi-arrow-right, .parcours__details:focus .bi-arrow-right{
+    padding-left: 7.222222222em;
+}
+
+.parcours__figure img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-width: 1100px) {
+    .layout__parcours{
+        display: grid;
+        grid-column-gap: 13em;
+        justify-items: start;
+        align-items: end;
+    }
+    .parcours__figure{
+        grid-column: 1;
+        grid-row: 1/5;
+    }
+    .parcours__title{
+        grid-column: 2;
+    }
+    .parcours__tagline{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .parcours__description{
+        grid-column: 2;
+        max-width: 800px;
+        grid-row: 3;
+    }
+    .parcours__details{
+        grid-column: 2;
+        grid-row: 4;
+    }
+}
