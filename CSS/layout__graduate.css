@@ -9,12 +9,17 @@
     margin-bottom: 1.25em; /*25/20*/
 }
 
+.graduate__details a{
+    max-width: 300px;
+    white-space: break-spaces;
+    text-align: center;
+}
+
 .graduate__details{
     font-size: 1.125em; /*18/16*/
     padding-bottom: 1em;
     padding-top: 1em;
     border-bottom: 2px solid #7DC149;
-    max-width: 500px;
 }
 
 .graduate__details svg{
