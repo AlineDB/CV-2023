@@ -10,6 +10,54 @@ Capture d'écran du site : [Photos](https://github.com/AlineDB/CV-2023/tree/main
 Le wireframe et design : [sur XD](https://xd.adobe.com/view/d70a5066-7641-4867-9c4e-d182f7f9ae2b-8259/)
 
 
+## Tests
+
+### GTMetrix
+
+
+![](tests/my_cv/GTMetrix.png)
+![](tests/my_cv/GTM details.png)
+
+Bons résultats avec un temps de chargement "correct" mais malgré l'optimisation des images et l'utilisation du srcset, celles-ci prennent 873KB et mettent 1.5s pour être toutes chargées. Ici, ce n'est qu'une page mais pour un site plus conséquent, il faudrait chercher une solution de type Lazy Loading pour encore optimiser ce point.
+
+
+### W3C Validator
+
+![](tests/my_cv/W3C HTML Validator.png)
+Pour le HTML
+
+Pour le CSS, CSS niveau 3 + SVG et juste un avertissement concernant le webkit pour le border radius.
+
+Je n'ai pas fait la validation des liens car la plupart sont vides et provoqueront des erreurs.
+
+
+### Wave
+
+![](tests/my_cv/wave.png)
+
+Une erreur du au label qui n'est pas visible (il ne sert qu'au burger menu)
+Encore des problèmes de contraste pour le header avec l'image sous le texte malgré mes améliorations.
+4 alertes pour suggérer de mettre 4 taglines en h?, ce dont je n'ai pas besoin.
+
+### HeadingsMap
+
+![](tests/my_cv/HTML5 outline.png)
+![](tests/my_cv/Structure Headings Map.png)
+
+Tests concluant
+
+### CSS STATS
+
+Il n'y a pas beaucoup de code (comparé à un site habituel). Taille fichiers 22KB et zippé 4KB.
+
+178 règles, 348 sélecteurs, 57 propriétés, pas d'ID, 235 classes, 55 pseudo-classes et 4 pseudo-éléments.
+
+Le score maximum de spécificité des règles est de 30. 
+
+449 déclarations uniques.
+
+1 border radius, 4 uniques colors sur 20 déclarations, 4 uniques background-color sur 12 déclarations.
+
 
 ## Argumentaire des changements apportés
 
