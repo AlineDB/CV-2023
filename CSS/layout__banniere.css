@@ -1,0 +1,60 @@
+
+
+.layout__banniere{
+    background: linear-gradient(90deg,#003928,#003928 85%,#1cb222 0,#1cb222 95%,#89e661 0,#89e661);
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 1.875em; /*30/16*/
+    height: 315px;
+    width: 100vw;
+    position: relative;
+}
+
+.banniere__link{
+    color: #ffffff;
+    font-size: 1.125em; /*18/16*/
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-bottom: 2px solid #7DC149;
+    max-width: 500px;
+}
+
+.banniere__link svg{
+    padding-left: 2.5555555556em; /*110/18*/
+}
+
+.banniere__link:hover .bi-arrow-right, .banniere__link:focus .bi-arrow-right{
+    padding-left: 3.222222222em;
+}
+
+.banniere__figure{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.banniere__figure img{
+    height: 800px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1100px) {
+    .layout__banniere{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .banniere__tagline, .banniere__link{
+        padding-top: 2.333333333333333em; /*70/30*/
+        margin-left: 1em; /**/
+        margin-bottom: 1em; /**/
+    }
+
+    .banniere__link a{
+        margin-top: 2.333333333333333em; /*70/30*/
+    }
+}

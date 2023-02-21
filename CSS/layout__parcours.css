@@ -41,8 +41,6 @@
     object-fit: cover;
 }
 
-
-
 @media screen and (min-width: 1100px) {
     .layout__parcours{
         display: grid;
@@ -53,6 +51,9 @@
     .parcours__figure{
         grid-column: 1;
         grid-row: 1/5;
+    }
+    .parcours__figure img{
+        height: 520px;
     }
     .parcours__title{
         grid-column: 2;

@@ -54,6 +54,9 @@
         grid-column: 1;
         grid-row: 1/5;
     }
+    .softskills__figure img{
+        height: 520px;
+    }
     .softskills__title{
         grid-column: 2;
     }

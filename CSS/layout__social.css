@@ -21,6 +21,10 @@
     margin-right: 2em; /*40/20*/
 }
 
+.social__link:hover svg{
+    fill: #7DC149;
+}
+
 
 @media screen and (min-width: 1100px) {
 
