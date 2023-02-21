@@ -16,14 +16,16 @@ Le wireframe et design : [sur XD](https://xd.adobe.com/view/d70a5066-7641-4867-9
 
 
 ![](tests/my_cv/GTMetrix.png)
-![](tests/my_cv/GTM details.png)
+
+![](tests/my_cv/GTM_details.png)
 
 Bons résultats avec un temps de chargement "correct" mais malgré l'optimisation des images et l'utilisation du srcset, celles-ci prennent 873KB et mettent 1.5s pour être toutes chargées. Ici, ce n'est qu'une page mais pour un site plus conséquent, il faudrait chercher une solution de type Lazy Loading pour encore optimiser ce point.
 
 
 ### W3C Validator
 
-![](tests/my_cv/W3C HTML Validator.png)
+![](tests/my_cv/W3C_HTML_Validator.png)
+
 Pour le HTML
 
 Pour le CSS, CSS niveau 3 + SVG et juste un avertissement concernant le webkit pour le border radius.
@@ -41,8 +43,9 @@ Encore des problèmes de contraste pour le header avec l'image sous le texte mal
 
 ### HeadingsMap
 
-![](tests/my_cv/HTML5 outline.png)
-![](tests/my_cv/Structure Headings Map.png)
+![](tests/my_cv/HTML5_outline.png)
+
+![](tests/my_cv/Structure_Headings_Map.png)
 
 Tests concluant
 
