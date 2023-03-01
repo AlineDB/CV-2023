@@ -1,4 +1,8 @@
 
+.nav__title{
+    display: none;
+}
+
 .presentation__second, .parcours__second {
     position: absolute;
     display: none;
@@ -10,8 +14,12 @@ nav a {
     font-size: 1.25em; /*20/16*/
 }
 
+.primary__title, .nav__title{
+    font-family: Inter-SemiBold, sans-serif;
+    font-size: 2.5em;
+}
 
-.nav__title a:hover, .nav__title a:focus {
+.primary__title a:hover, .primary__title a:focus , .nav__title a:hover, .nav__title a:focus{
     color: #7DC149;
 }
 
@@ -89,21 +97,21 @@ nav a {
 
 
 @media screen and (min-width: 1100px) {
-    .nav__title a, .header__tag, .presentation__link, .parcours__link, .competences__link, .projects__link, .contact__link {
+
+    .primary__title a, .header__tag, .presentation__link, .parcours__link, .competences__link, .projects__link, .contact__link {
         color: #ffffff;
         position: absolute;
         padding-top: 1em; /*30/16*/
     }
 
     .nav__primary {
-        margin-left: 14.4em; /*288px/20*/
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-right: 6em;
     }
 
-    .nav__title, .presentation__link, .parcours__link, .competences__link, .projects__link, .contact__link {
+    .primary__title, .presentation__link, .parcours__link, .competences__link, .projects__link, .contact__link {
         top: 2.5em; /*20/16*/
     }
 
@@ -120,9 +128,26 @@ nav a {
         height: 100vh;
     }
 
-    .header__tag, .header__nav {
+    .header__tag, .header__nav  {
         margin-left: 135px;
         margin-right: 135px;
+    }
+
+    .fixed {
+        position: fixed;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 135px;
+        padding-right: 135px;
+        width: 100%;
+        top: 0;
+        background-color: #ffffff;
+        z-index: 1;
+        height: 130px;
+    }
+
+    .fixed a{
+        color: #000000;
     }
 
     .primary__contact a {
@@ -153,6 +178,7 @@ nav a {
         height: 50vh;
         left: 0;
         width: 100%;
+        background-color: #ffffff;
     }
 
     .header__count {
@@ -219,12 +245,21 @@ nav a {
 
 
 @media screen and (max-width: 1099px) {
+    .nav__title{
+        display: initial;
+        padding: 1em;
+    }
+
+    .nav__title a{
+        margin-top: 2em;
+    }
     .header__nav {
         position: fixed;
         width: 100%;
         top: 0;
         background-color: #ffffff;
         z-index: 1;
+        height: 80px;
     }
 
     .nav__hamblabel {
@@ -248,14 +283,14 @@ nav a {
         font-size: 1.5em; /*30/20*/
         font-weight: lighter;
         width: 50%;
+        padding-left: 0.5em;
     }
 
     .nav__hamburger:checked ~ .nav__primary {
-        display: initial;
+        display: inline-block;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         z-index: 1;
-        background-color: #ffffff;
     }
 
     .header__tag {
@@ -263,8 +298,8 @@ nav a {
         color: #ffffff;
         font-family: Inter-Light, sans-serif;
         position: absolute;
-        top: 3em; /*252/40*/
-        width: 8.8em; /*930/40*/
+        top: 2em; /*252/40*/
+        /*width: 8.8em; /*930/40*/
         left: 1em;
     }
 
@@ -273,7 +308,7 @@ nav a {
         object-fit: cover;
     }
 
-    .nav__title {
+    .primary__title {
         padding: 30px 23px 10px 10px;
     }
 
@@ -281,8 +316,9 @@ nav a {
         font-weight: bolder;
         color: #ffffff;
         position: absolute;
-        top: 21em; /*427/20*/
-        left: 3em; /*154/20*/
+        top: 25em; /*427/20*/
+        left: 7em; /*154/20*/
+        font-size: 0.8em;
     }
 
     .primary__contact a {
@@ -302,8 +338,9 @@ nav a {
         display: grid;
         grid-gap: 0.5em;
         grid-template-columns: 1fr 1fr;
-        height: 100%;
-        width: 100%;
+        /*height: 100vh;*/
+        width: 80%;
+        font-size: 0.5em;
     }
 
     /*grid drop-down menu*/
@@ -313,6 +350,7 @@ nav a {
         grid-row: 1;
         font-size: 1.875em; /*30/16*/
         font-weight: lighter;
+        padding-left: 0.5em;
     }
 
     .second__link {
@@ -324,6 +362,7 @@ nav a {
     }
 
     .second__address {
+        padding-left: 0.5em;
         grid-column: 1;
         grid-row: 3;
     }
@@ -336,17 +375,24 @@ nav a {
     .second__situation {
         grid-column: 1;
         grid-row: 4;
+        padding-left: 0.5em;
     }
 
     .second__experiences {
+        padding-left: 0.5em;
         grid-column: 1;
         grid-row: 3;
+    }
+    .second__graduate:nth-child(2){
+        padding-left: 0.5em;
     }
 
     .second__links {
         grid-row: 6;
         grid-column: 1/3;
     }
-
+    .link__details{
+        margin-left: 0.5em;
+    }
 
 }

@@ -20,7 +20,7 @@ Le wireframe et design : [sur XD](https://xd.adobe.com/view/d70a5066-7641-4867-9
 ![](tests/my_cv/GTM_details.png)
 
 Bons résultats avec un temps de chargement "correct" mais malgré l'optimisation des images et l'utilisation du srcset, celles-ci prennent 873KB et mettent 1.5s pour être toutes chargées. Ici, ce n'est qu'une page mais pour un site plus conséquent, il faudrait chercher une solution de type Lazy Loading pour encore optimiser ce point.
-
+Avec le JS, j'ai un score un peu plus bas mais qui reste correct avec un B et juste un peu plus de temps de chargement.
 
 ### W3C Validator
 
